@@ -31,7 +31,7 @@ function displayHistory() {
 
     newRow.innerHTML = `
     <h3>${test.questionText}</h3>
-    <div class="mis-min">
+     <div class="mis-min">
       <p>You took: <span class="bold">${test.timeTaken.toFixed()}</span> seconds</p>
       <p>You made <span class="bold red">${test.errorCount}</span> mistakes</p>
     </div>
